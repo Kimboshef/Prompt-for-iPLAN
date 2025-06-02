@@ -12,7 +12,6 @@ Knowledge: Here is relevant knowledge for reference in this task.
 2. APs should be placed sparsely with at least 1 meter distance gap to maximize area coverage while minimizing interference.
 3. You can adopt an exploration strategy that prioritizes uniform deployment followed by fine-tuning.
 4. Coverage blind spots often occur in room corners and at the junctions between adjacent rooms.
-
 # Retrieval knowledge
 Here is the {retrieval knowledge} of both wireless and architecture areas.
 
