@@ -1,1 +1,19 @@
+iPLAN Framework prompts
+Description: You are a professional in the field of indoor wireless network planning and architecture. The following is information of a building layout {floor plan image}. Each pixel represents 0.1m*0.1m. Green areas represent doors and blue ones indicate windows, both of which may exhibit relatively low penetration loss. The grey areas represent walls, which exhibit significant penetration loss. 
+# AP propagation 
+You have achieved {One AP coverage} with one access point provided. Coverage map results are: {One AP coverage map}. Locations with a path loss less than 110 dB are considered covered. 
+# Output 
+Identify how many access points you need to place in this building to achieve a target coverage of 95%？ Propose locations to place APs to meet a coverage of 95% in the format of [[x1,y1], [x2,y2], …, [xn,yn]]. 
 
+
+Knowledge: Here is relevant knowledge for reference in this task.
+# Instruction knowledge
+1. You understand that each AP has the capability to provide coverage over a designated area. Its signal strength diminishes logarithmically with distance. 
+2. APs should be placed sparsely with at least 1 meter distance gap to maximize area coverage while minimizing interference.
+3. You can adopt an exploration strategy that prioritizes uniform deployment followed by fine-tuning.
+4. Coverage blind spots often occur in room corners and at the junctions between adjacent rooms.
+
+# Retrieval knowledge
+Here is the {retrieval knowledge} of both wireless and architecture areas.
+
+Perception:  Simulation achieved {coverage} with and {AP locations} with a coverage map results {coverage map}. Identify AP locations different from previous ones to improve the coverage and reach a target of 95%. 
