@@ -1,4 +1,4 @@
-*The prompts for the iPLAN framework, including **description**, **knowledge**, and **perception** information:[Prompts consisted of description, knowledge, and perception information ](1_Prompt_for_iPLAN.png)
+*The prompts for the iPLAN framework, including **description**, **knowledge**, and **perception** information:[iPLAN Prompts](1_Prompt_for_iPLAN.png)
 ![Prompts consisted of description, knowledge, and perception information ](1_Prompt_for_iPLAN.png)
 
 
