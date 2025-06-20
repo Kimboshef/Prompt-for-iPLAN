@@ -9,12 +9,12 @@
 4. Ensure the indoor space utilization is maximized while ensuring a clear circulation path. 
 5. Ensure the outer door should not be blocked, and all rooms should be accessible from the outer door.
 
-# BWP instruction knowledge: In AP deployment scenarios, building wireless performance can be improved by adjusting the layout, room positions, and door placement, corner areas should be avoided, and wall obstructions should be minimized. The penetration loss of wall is large. The penetration loss of door is small. Signal should avoid passing through multiple walls. Rooms should be arranged within the AP coverage area as much as possible while minimizing mutual obstruction. Signal dead zones are likely to appear at room junctions.         
-
+# BWP instruction knowledge: In AP deployment scenarios, building wireless performance can be improved by adjusting the layout, room positions, and door placement. Corner areas and wall obstructions should be minimized, as signal dead zones tend to occur at room junctions.
+Rooms should be arranged within the AP coverage area as much as possible while minimizing mutual obstruction. The main corridors facilitate RF signal distribution and help minimize signal attenuation caused by passing through multiple walls. 
 
 
 3. IWN design agent & 4. Correction agent (wireless-related)
-# IWN task description: You are a professional in the field of indoor wireless network planning and architecture. The following is information of a building layout {floor plan image}. Each pixel represents 0.1m*0.1m. Green areas represent doors and blue ones indicate windows, both of which may exhibit relatively low penetration loss. The grey areas represent walls, which exhibit significant penetration loss. 
+# IWN task description: You are professional in the field of indoor wireless network planning and architecture. The following is information of a building layout {floor plan image}. Each pixel represents 0.1m*0.1m. Green areas represent doors and blue ones indicate windows, both of which may exhibit relatively low penetration loss. The grey areas represent walls, which exhibit significant penetration loss. 
 # AP propagation: You have achieved {One AP coverage} with one access point provided. Coverage map results are: {One AP coverage map}. Locations with a path loss less than 80 dB are considered covered. 
 # Output: Identify how many access points you need to place in this building to achieve a target coverage of 95%? Propose locations to place APs to meet a coverage of 95% in the format of [[x1,y1], [x2,y2], …, [xn,yn]]. 
 
