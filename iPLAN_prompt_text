@@ -1,5 +1,5 @@
 iPLAN Framework prompts
-Description: You are a professional in the field of indoor wireless network planning and architecture. The following is information of a building layout {floor plan image}. Each pixel represents 0.1m*0.1m. Green areas represent doors and blue ones indicate windows, both of which may exhibit relatively low penetration loss. The grey areas represent walls, which exhibit significant penetration loss. 
+Description: You are professional in the field of indoor wireless network planning and architecture. The following is information of a building layout {floor plan image}. Each pixel represents 0.1m*0.1m. Green areas represent doors and blue ones indicate windows, both of which may exhibit relatively low penetration loss. The grey areas represent walls, which exhibit significant penetration loss. 
 # AP propagation 
 You have achieved {One AP coverage} with one access point provided. Coverage map results are: {One AP coverage map}. Locations with a path loss less than 110 dB are considered covered. 
 # Output 
